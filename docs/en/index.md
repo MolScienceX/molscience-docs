@@ -4,7 +4,7 @@ layout: home
 hero:
   name: MolScience Docs
   text: MolScience Handbook
-  tagline: Onboarding, collaboration rules, and basic learning materials for new members.
+  tagline: Onboarding paths, collaboration rules, and basic learning materials for new members.
   actions:
     - theme: brand
       text: Start Reading
@@ -20,4 +20,7 @@ features:
   - title: Basic Knowledge
     details: Build basic understanding of chemistry, databases, and machine learning.
     link: /en/handbook/chemistry
+  - title: Documentation Style
+    details: Keep page structure, terminology, links, and bilingual content consistent.
+    link: /en/markdown-examples
 ---

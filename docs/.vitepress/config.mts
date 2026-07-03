@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'MolScience Docs',
+  title: 'MolScience 文档',
   description: 'MolScience 文档中心',
   lang: 'zh-CN',
 
@@ -11,7 +11,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/MolScience' }
+      { icon: 'github', link: 'https://github.com/MolScience/molscience-docs' }
     ],
 
     footer: {
@@ -24,19 +24,19 @@ export default defineConfig({
     root: {
       label: '简体中文',
       lang: 'zh-CN',
-      title: 'MolScience Docs',
+      title: 'MolScience 文档',
       description: 'MolScience 文档中心',
 
       themeConfig: {
         nav: [
-          { text: 'Handbook', link: '/handbook/' },
-          { text: 'GitHub', link: 'https://github.com/MolScience' }
+          { text: '新人手册', link: '/handbook/' },
+          { text: '文档规范', link: '/markdown-examples' }
         ],
 
         sidebar: {
           '/handbook/': [
             {
-              text: 'MolScience Handbook',
+              text: 'MolScience 新人手册',
               items: [
                 { text: '概览', link: '/handbook/' },
                 { text: '从这里开始', link: '/handbook/start' },
@@ -61,7 +61,7 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: 'Handbook', link: '/en/handbook/' },
-          { text: 'GitHub', link: 'https://github.com/MolScience' }
+          { text: 'Documentation Style', link: '/en/markdown-examples' }
         ],
 
         sidebar: {

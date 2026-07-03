@@ -2,48 +2,37 @@
 outline: deep
 ---
 
-# Runtime API Examples
+# 平台页面维护说明
 
-This page demonstrates usage of some of the runtime APIs provided by VitePress.
+本页记录维护 MolScience 文档站点时需要了解的基础信息。
 
-The main `useData()` API can be used to access site, theme, and page data for the current page. It works in both `.md` and `.vue` files:
+## 本地开发
 
-```md
-<script setup>
-import { useData } from 'vitepress'
+常用命令：
 
-const { theme, page, frontmatter } = useData()
-</script>
-
-## Results
-
-### Theme Data
-<pre>{{ theme }}</pre>
-
-### Page Data
-<pre>{{ page }}</pre>
-
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
+```bash
+npm run docs:dev
+npm run docs:build
+npm run docs:preview
 ```
 
-<script setup>
-import { useData } from 'vitepress'
+## 目录约定
 
-const { site, theme, page, frontmatter } = useData()
-</script>
+- `docs/`：中文文档。
+- `docs/en/`：英文文档。
+- `docs/handbook/`：新成员入门手册。
+- `docs/.vitepress/config.mts`：站点导航、侧边栏和多语言配置。
 
-## Results
+## 更新检查
 
-### Theme Data
-<pre>{{ theme }}</pre>
+1. 新增页面后，确认中文和英文路径都存在。
+2. 更新导航或侧边栏链接。
+3. 检查 Markdown 标题层级和相对链接。
+4. 运行 `npm run docs:build`，确认站点可以构建。
 
-### Page Data
-<pre>{{ page }}</pre>
+## 适合放入文档的内容
 
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
-
-## More
-
-Check out the documentation for the [full list of runtime APIs](https://vitepress.dev/reference/runtime-api#usedata).
+- 新成员需要反复查阅的流程。
+- 数据字段、单位、来源和质量控制要求。
+- 可以复现的实验、脚本或模型步骤。
+- 已经形成共识的协作规范。

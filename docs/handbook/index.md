@@ -1,14 +1,22 @@
-# MolScience Handbook
+# MolScience 新人手册
 
-MolScience Handbook is the entry point for new members.
+MolScience 新人手册是新成员加入平台后的第一站。
 
-It explains the background, workflow, collaboration rules, and basic knowledge needed to participate in MolScience projects.
+这里整理了参与 MolScience 项目需要了解的背景、协作方式、基础知识和常见问题。无论你从文档、数据、实验记录、代码还是机器学习任务开始，都可以先按照这份手册建立共同语境。
 
-## Start here
+## 建议阅读顺序
 
-- [Start Here](./start.md)
-- [GitHub Guide](./github.md)
-- [Database Guide](./database.md)
-- [Chemistry Basics](./chemistry.md)
-- [Machine Learning Basics](./machine-learning.md)
-- [FAQ](./faq.md)
+1. [从这里开始](./start.md)：了解平台目标、角色分工和第一周建议。
+2. [GitHub 协作](./github.md)：学习 issue、分支、提交和 pull request 的基本流程。
+3. [数据库指南](./database.md)：理解数据字段、来源记录和质量检查方式。
+4. [化学基础](./chemistry.md)：补齐分子结构、性质和数据可靠性相关概念。
+5. [机器学习基础](./machine-learning.md)：理解数据集、特征、标签和模型评估。
+6. [常见问题](./faq.md)：查看加入初期最容易遇到的问题。
+
+## 新成员可以做什么
+
+- 完善或翻译文档，修正不清楚的说明。
+- 整理文献、实验记录或公开数据来源。
+- 检查数据库字段、单位、缺失值和数据来源。
+- 参与代码、脚本、模型训练或结果复现。
+- 在 issue 中提出问题，记录学习过程中发现的改进点。

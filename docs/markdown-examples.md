@@ -1,85 +1,40 @@
-# Markdown Extension Examples
+# 文档写作规范
 
-This page demonstrates some of the built-in markdown extensions provided by VitePress.
+本页说明 MolScience 文档的基础写作规范，用于保持中文和英文页面结构一致、信息准确、链接可维护。
 
-## Syntax Highlighting
+## 页面结构
 
-VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shikijs/shiki), with additional features like line-highlighting:
+- 每个页面只使用一个一级标题。
+- 先说明页面目的，再展开流程、清单或示例。
+- 适合新人执行的内容优先写成步骤或检查清单。
+- 页面中出现数据、结论或外部资料时，应提供来源或说明待确认状态。
 
-**Input**
+## 中英文同步
 
-````md
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-````
+- 中文页面位于 `docs/`，英文页面位于 `docs/en/`。
+- 新增或修改核心内容时，应同步检查对应语言版本。
+- 标题、流程、链接、数据要求和警告信息应保持一致。
+- 可以根据语言习惯调整表达，不需要逐字翻译。
 
-**Output**
+## 术语建议
 
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
+| 中文 | English |
+| --- | --- |
+| 新人手册 | Handbook |
+| 数据来源 | Data source |
+| 字段 | Field |
+| 单位 | Unit |
+| 待确认 | To be confirmed |
+| 拉取请求 | Pull request |
 
-## Custom Containers
+## 提示块
 
-**Input**
-
-```md
-::: info
-This is an info box.
-:::
+VitePress 支持提示块，适合标注重要说明。
 
 ::: tip
-This is a tip.
+当内容会影响数据质量、复现流程或协作决策时，优先使用提示块提醒读者。
 :::
 
 ::: warning
-This is a warning.
+不要把不确定的实验条件、数据来源或模型结论写成确定事实。
 :::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-```
-
-**Output**
-
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-
-## More
-
-Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
