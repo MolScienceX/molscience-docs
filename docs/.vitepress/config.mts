@@ -11,7 +11,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/MolScience/molscience-docs' }
+      { icon: 'github', link: 'https://github.com/molsciencex/molscience-docs' }
     ],
 
     footer: {
