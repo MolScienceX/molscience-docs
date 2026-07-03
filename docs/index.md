@@ -2,9 +2,9 @@
 layout: home
 
 hero:
-  name: 分子科学平台文档
-  text: MolScience 新人手册
-  tagline: 面向新成员的入门路径、协作规范与基础学习资料。
+  name: 分子科学
+  text: 从这里开始了解一切
+  tagline: 包含新成员入门指南以及平台技术文档。
   actions:
     - theme: brand
       text: 开始阅读

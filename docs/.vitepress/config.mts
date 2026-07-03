@@ -30,7 +30,6 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: '新人手册', link: '/handbook/' },
-          { text: '文档规范', link: '/markdown-examples' }
         ],
 
         sidebar: {
@@ -60,8 +59,7 @@ export default defineConfig({
 
       themeConfig: {
         nav: [
-          { text: 'Handbook', link: '/en/handbook/' },
-          { text: 'Documentation Style', link: '/en/markdown-examples' }
+          { text: 'Handbook', link: '/en/handbook/' }
         ],
 
         sidebar: {

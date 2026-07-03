@@ -2,9 +2,9 @@
 layout: home
 
 hero:
-  name: MolScience Docs
-  text: MolScience Handbook
-  tagline: Onboarding paths, collaboration rules, and basic learning materials for new members.
+  name: MolScience
+  text: Start here to understand everything
+  tagline: Includes the new member onboarding guide and platform technical documentation.
   actions:
     - theme: brand
       text: Start Reading
