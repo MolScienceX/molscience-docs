@@ -1,11 +1,19 @@
 import { defineConfig } from 'vitepress'
 
+const molscienceLogo = 'https://s.guyue.me/img/icon_molscience.png'
+
 export default defineConfig({
   title: 'MolScience 文档',
   description: 'MolScience 文档中心',
   lang: 'zh-CN',
+  head: [
+    ['link', { rel: 'icon', href: molscienceLogo }],
+    ['link', { rel: 'apple-touch-icon', href: molscienceLogo }]
+  ],
 
   themeConfig: {
+    logo: molscienceLogo,
+
     search: {
       provider: 'local'
     },
